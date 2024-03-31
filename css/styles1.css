@@ -8,8 +8,7 @@
 }
 
 body {
-  background: url("C:\Users\Admin\Downloads\manipal-institute-technology.jpg")
-    no-repeat center center fixed;
+   background-color: pink;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
