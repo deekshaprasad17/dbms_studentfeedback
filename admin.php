@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Admin Login</title>
-    <link rel="stylesheet" href="css/styles1.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="css/styles1.css" />
+  <style>
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  </style>
+</head>
 
-  <body>
+<body>
+  <div class="container">
     <div class="login-form">
       <h2>Login to your account</h2>
       <form action="php/checklogin.php" method="POST">
@@ -30,5 +38,6 @@
         </div>
       </form>
     </div>
-  </body>
+  </div>
+</body>
 </html>
